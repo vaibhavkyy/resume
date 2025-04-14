@@ -1,0 +1,151 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-gray: #f5f5f5;
+    --medium-gray: #ddd;
+    --dark-gray: #777;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.job {
+    margin-bottom: 2rem;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.job h4 {
+    margin-bottom: 0.3rem;
+    color: var(--secondary-color);
+}
+
+.date {
+    color: var(--dark-gray);
+    font-style: italic;
+}
+
+.company, .client {
+    color: var(--dark-gray);
+    margin: 0.3rem 0;
+}
+
+.contributions li {
+    margin-bottom: 0.5rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill-category {
+    flex: 1;
+    min-width: 250px;
+}
+
+.skill-category h4 {
+    color: var(--secondary-color);
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-category li {
+    padding: 0.3rem 0;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .job-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .date {
+        margin-top: 0.3rem;
+    }
+}
