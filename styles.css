@@ -134,6 +134,21 @@ footer {
     margin-top: 2rem;
 }
 
+.download-btn {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #2980b9;
+}
+
 @media (max-width: 768px) {
     .contact-info {
         flex-direction: column;
