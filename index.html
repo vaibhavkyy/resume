@@ -1,194 +1,217 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaibhav Yadav - ServiceNow Developer</title>
+    <title>Vaibhav Yadav | ServiceNow Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        
+    <div class="page-container">
+        <header class="hero">
             <div class="container">
-            <h1>Vaibhav Yadav</h1>
-            <h2>Senior Consultant ServiceNow</h2>
-            <div class="contact-info">
-                <p><i class="fas fa-envelope"></i> vaibhavkyy@gmail.com</p>
-              <!--  <p><i class="fas fa-phone"></i> +91 9958539335</p>  -->
-                <p><i class="fas fa-map-marker-alt"></i> Noida, India</p>
-            </div>
-                <a href="Vaibhav-Resume.pdf" target="_blank" class="download-btn" download>
-    <i class="fas fa-download"></i> Download PDF Resume
-</a>
-        </div>
-    </header>
-
-    <main class="container">
-        <section class="profile">
-            <h3>PROFILE</h3>
-            <p>Dedicated <b>ServiceNow Developer</b> with 3 years of hands-on experience in designing, developing, and implementing scalable solutions within the ServiceNow platform. Proficient in module configuration, UI customization, and workflow automation to optimize business processes. Demonstrated expertise in system integrations, utilizing both Out-of-the-Box (OOTB) capabilities and custom-built REST APIs to ensure seamless connectivity across enterprise systems. Successfully developed a secure, reusable inbound REST API framework leveraged by multiple third-party applications for performing CRUD operations. Experience also includes SOAP and JDBC integrations, as well as designing scheduled jobs for maintaining up-to-date user, company, and business application data within the platform. Adept at translating complex business requirements into efficient technical solutions that drive operational efficiency and user satisfaction.</p>
-        </section>
-
-        <section class="experience">
-            <h3>WORK EXPERIENCE</h3>
-            
-            <div class="job">
-                <div class="job-header">
-                    <h4>Senior Consultant ServiceNow</h4>
-                    <span class="date">2024/11 – Present</span>
-                </div>
-                <p class="company">Infocenter, Pune, India</p>
-                <p class="client">Client: A multi-service provider based in the USA.</p>
-                <ul class="contributions">
-                    <li>Designed and developed ServiceNow integrations with multiple third-party service providers to automate Change Task fulfilment and updates.</li>
-                    <li>Automated CMDB refresh processes to ensure accurate and up-to-date license count information.</li>
-                    <li>Enabled real-time visibility into software license usage, helping the organization proactively manage license compliance and avoid overuse.</li>
-                    <li>Reduced manual efforts and minimized errors by implementing end-to-end automation for change management tasks.</li>
-                </ul>
-
-                <div class="job-header">
-                    <h4>Software Analyst</h4>
-                    <span class="date">2023/10 – 2024/10</span>
-                </div>
-                <p class="company">Accenture plc, India</p>
-                <p class="client">Client: Europe based pharmaceutical giant.</p>
-                <ul class="contributions">
-                    <li>I have been part of this project from the initial requirement gathering phase to the whole development to deployment phase and provide support in the Hypercare phase.</li>
-                    <li>Created a custom REST API inbound framework utilizing two custom tables that is used by more than 10 applications to connect to ServiceNow to create service request, create incident, update task, update incident and read the data from ServiceNow tables.</li>
-                    <li>Worked on SCCM integration to bring end user devices into the configuration management in ServiceNow.</li>
-                    <li>Worked on Azure SSO integration.</li>
-                    <li>Worked on GIAM REST API integration to sync the user information with the help of integration hub and scheduled imports.</li>
-                    <li>Worked on EC and Memphis REST API integration to bring and sync up the foundation data (Cost center, Department, Business unit, Company, Location)</li>
-                    <li>Worked on SAP integration with SOAP to automate the password reset and user unlock with the help of SOAP action and Flow.</li>
-                    <li>Created a scheduled script job with REST connection to deactivate the inactive users.</li>
-                    <li>Created JDBC connection with Spectrum system to sync the CI data (Router and Switches).</li>
-                    <li>Automated the AD integration to assign licenses to users in AD and remove the licenses with the help of Flow.</li>
-                    <li>Basic level understanding of LDAP and MID server integration.</li>
-                    <li>Created Technical documentation and provided KT while handing over the development to support team.</li>
-                    <li>Deployed all the updates to the various instances from Development, Test, QA and Production.</li>
-
-                </ul>
-
-                <div class="job-header">
-                    <h4>Associate Software Engineer</h4>
-                    <span class="date">2022/06 – 2023/09</span>
-                </div>
-                <p class="company">Accenture plc, India</p>
-                <p class="client">Client: USA based shipping company.</p>
-                <ul class="contributions">
-                    <li>I have been part of this project from the initial requirement gathering phase to the whole development to deployment phase.</li>
-                    <li>Configured Incident and Change modules.</li>
-                    <li>Integrated MS-Teams with ServiceNow to enable chat feature and sidebar integration.</li>
-                    <li>Configured Knowledge Base.</li>
-                    <li>LDAP and SSO integration.</li>
-                    <li>Business rules, client script and script includes.</li>
-                    <li>Scheduled Jobs, Scheduled Imports, Transform map.</li>
-                    <li>Catalogs and Flow Designer</li>
-                </ul>
-            </div>
-
-            <!-- Add other work experiences similarly -->
-            
-        </section>
-
-        <section class="education">
-            <h3>EDUCATION</h3>
-            <div class="education-item">
-                <h4>Master of Computer Applications (MCA)</h4>
-                <p class="institution">Galgotias College of Engineering and Technology</p>
-                <p class="details">2019/07 – 2022/03 | Percentage: 75</p>
-            </div>
-        </section>
-
-        <section class="skills">
-            <h3>SKILLS</h3>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h4>Technical Skills</h4>
-                    <ul>
-                        <li>
-                            <b>JavaScript</b><br>
-                            <i class="skill-details">Strong JavaScript skills for client-side and server-side scripting
-                            within ServiceNow.</i>
-                        </li>
-                        <li>
-                            <b>ServiceNow APIs</b><br>
-                            <i class="skill-details">Experience with REST and SOAP web services, integrating
-                            external systems with ServiceNow.</i>
-                        </li>
-                        <li>
-                        <b>Workflow Configuration</b><br>
-                            <i class="skill-details">Skilled in creating and managing Flows, business rules,
-                            and automation processes in ServiceNow.</i>
-                        </li>
-                        <li>
-                        <b>Integration Development</b><br>
-                        <i class="skill-details">Experience in integrating ServiceNow with third-party
-                        applications and tools using custom APIs, OOTB APIs, and
-                        middleware using REST, SOAP and JDBC.
-                        </i></li>
-                        <li>
-                        <b>Portal Development and UI Builder</b><br>
-                        <i class="skill-details">Knowledge of developing and configuring portals, pages and widgets.
-                        </i>
-                    </li>
-                    <li>
-                        <b>Catalog Item Development</b><br>
-                        <i class="skill-details">Knowledge of developing and automating catalog items fulfillment.
-                        </i>
-                    </li>
+                <div class="hero-content">
+                    <h1>Vaibhav Yadav</h1>
+                    <h2>Senior ServiceNow Consultant</h2>
+                    <div class="contact-info">
+                        <a href="mailto:vaibhavkyy@gmail.com"><i class="fas fa-envelope"></i> vaibhavkyy@gmail.com</a>
+                        <a href="#"><i class="fas fa-map-marker-alt"></i> Noida, India</a>
+                    </div>
                     
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h4>Methodologies</h4>
-                    <ul>
-                        <li>
-                            <b>Agile/Scrum</b><br>
-                             <i class="skill-details">Experience working in Agile/Scrum environments, adapting to
-                                changing requirements and delivering incremental
-                                improvements.</i>
-                            </li>
-                        <li>
-                            <b>Data Migration</b><br>
-                            <i class="skill-details">Experience in Data Source, Transform Maps, Scheduled Jobs.</li></i>
-                        <li>
-                            <b>Problem-Solving</b><br>
-                            <i class="skill-details">Strong analytical and problem-solving skills to troubleshoot
-                                issues and optimize solutions.
-                            </i>
-                        </li>
-                        <li>
-                            <b>Documentation</b><br>
-                            <i class="skill-details">Proficient in creating technical documentation, including
-                                design specifications.
-                            </i>
-                        </li>  
-                        </ul>
+                    <div class="hero-actions">
+                        <a href="Vaibhav-Resume.pdf" target="_blank" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/vaibhav-yadav-857946141/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
+        </header>
 
-        <section class="certifications">
-            <h3>CERTIFICATIONS</h3>
-            <ul>
-                <li>ServiceNow Certified Implementation Specialist - ITSM</li>
-                <li>ServiceNow Certified Application Developer</li>
-                <li>ServiceNow Certified System Administrator</li>
-                <li>Micro certification for Flow Designer</li>
-            </ul>
-        </section>
-    </main>
+        <main class="container">
+            <section class="card profile">
+                <h3><i class="fas fa-user-tie"></i> Profile</h3>
+                <div class="card-content">
+                    <p>Dedicated <strong>ServiceNow Developer</strong> with 3 years of hands-on experience in designing, developing, and implementing scalable solutions within the ServiceNow platform. Proficient in module configuration, UI customization, and workflow automation to optimize business processes. Demonstrated expertise in system integrations, utilizing both Out-of-the-Box (OOTB) capabilities and custom-built REST APIs to ensure seamless connectivity across enterprise systems.</p>
+                    <p>Successfully developed a secure, reusable inbound REST API framework leveraged by multiple third-party applications for performing CRUD operations. Experience also includes SOAP and JDBC integrations, as well as designing scheduled jobs for maintaining up-to-date user, company, and business application data within the platform. Adept at translating complex business requirements into efficient technical solutions that drive operational efficiency and user satisfaction.</p>
+                </div>
+            </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Vaibhav Yadav. All rights reserved.</p>
-        </div>
-    </footer>
+            <section class="card experience">
+                <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                <div class="card-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-header">
+                                <div class="timeline-title">
+                                    <h4>Senior Consultant ServiceNow</h4>
+                                    <span class="company">Infocenter, Pune, India (Remote)</span>
+                                </div>
+                                <span class="date">2024/11 – Present</span>
+                            </div>
+                            <div class="timeline-client">Client: A multi-service provider based in the USA</div>
+                            <ul class="timeline-contributions">
+                                <li>Designed and developed ServiceNow integrations with multiple third-party service providers to automate Change Task fulfilment and updates.</li>
+                                <li>Automated CMDB refresh processes to ensure accurate and up-to-date license count information.</li>
+                                <li>Utilized Identification and Reconciliation Engine (IRE) via scripts to synchronize CMDB data for IP routers and wireless access points (WAPs) through a scheduled REST API integration.</li>
+                                <li>Enabled real-time visibility into software license usage, helping the organization proactively manage license compliance and avoid overuse.</li>
+                                <li>Reduced manual efforts and minimized errors by implementing end-to-end automation for change management tasks.</li>
+                                <li>Improved operational efficiency and accuracy in ITSM processes by streamlining ServiceNow workflows and integration logic.</li>
+                            </ul>
+                        </div>
 
-    <!-- Font Awesome for icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+                        <div class="timeline-item">
+                            <div class="timeline-header">
+                                <div class="timeline-title">
+                                    <h4>Software Analyst</h4>
+                                    <span class="company">Accenture plc, India</span>
+                                </div>
+                                <span class="date">2023/10 – 2024/10</span>
+                            </div>
+                            <div class="timeline-client">Client: Europe based pharmaceutical giant</div>
+                            <ul class="timeline-contributions">
+                                <li>Created a custom REST API inbound framework utilizing two custom tables that is used by more than 10 applications to connect to ServiceNow to create service request, create incident, update task, update incident and read the data from ServiceNow tables.</li>
+                                <li>Worked on SCCM integration to bring end user devices into the configuration management in ServiceNow.</li>
+                                <li>Worked on Azure SSO integration and GIAM REST API integration to sync the user information with the help of integration hub and scheduled imports.</li>
+                                <li>Worked on EC and Memphis REST API integration to bring and sync up the foundation data (Cost center, Department, Business unit, Company, Location).</li>
+                                <li>Created a scheduled script job with REST connection to deactivate the inactive users.</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-header">
+                                <div class="timeline-title">
+                                    <h4>Associate Software Engineer</h4>
+                                    <span class="company">Accenture plc, India</span>
+                                </div>
+                                <span class="date">2022/06 – 2023/09</span>
+                            </div>
+                            <div class="timeline-client">Client: USA based shipping company</div>
+                            <ul class="timeline-contributions">
+                                <li>Configured Incident and Change modules and integrated MS-Teams with ServiceNow to enable chat feature and sidebar integration.</li>
+                                <li>Configured Knowledge Base, LDAP and SSO integration.</li>
+                                <li>Implemented Business rules, client script and script includes.</li>
+                                <li>Developed Scheduled Jobs, Scheduled Imports, Transform maps, Catalogs and Flow Designer solutions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card education">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="card-content">
+                    <div class="education-item">
+                        <h4>Master of Computer Applications (MCA)</h4>
+                        <div class="education-details">
+                            <span class="institution">Galgotias College of Engineering and Technology</span>
+                            <span class="date">2019/07 – 2022/03 | Percentage: 75</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills-section">
+                <div class="card skills">
+                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                    <div class="card-content">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-name">JavaScript</div>
+                                <div class="skill-description">Strong JavaScript skills for client-side and server-side scripting within ServiceNow.</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">ServiceNow APIs</div>
+                                <div class="skill-description">Experience with REST and SOAP web services, integrating external systems with ServiceNow.</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Workflow Configuration</div>
+                                <div class="skill-description">Skilled in creating and managing Flows, business rules, and automation processes.</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Integration Development</div>
+                                <div class="skill-description">Experience integrating ServiceNow with third-party applications using REST, SOAP and JDBC.</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Portal Development</div>
+                                <div class="skill-description">Knowledge of developing and configuring portals, pages and widgets.</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Catalog Item Development</div>
+                                <div class="skill-description">Knowledge of developing and automating catalog items fulfillment.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card skills">
+                    <h3><i class="fas fa-project-diagram"></i> Methodologies</h3>
+                    <div class="card-content">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-name">Agile/Scrum</div>
+                                <div class="skill-description">Experience working in Agile/Scrum environments, adapting to changing requirements.</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Data Migration</div>
+                                <div class="skill-description">Experience in Data Source, Transform Maps, Scheduled Jobs.</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Problem-Solving</div>
+                                <div class="skill-description">Strong analytical and problem-solving skills to troubleshoot issues.</div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Documentation</div>
+                                <div class="skill-description">Proficient in creating technical documentation, including design specifications.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card certifications">
+                <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                <div class="card-content">
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>ServiceNow Certified Implementation Specialist - ITSM</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>ServiceNow Certified Application Developer</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>ServiceNow Certified System Administrator</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Micro certification for Flow Designer</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; <span id="year"></span> Vaibhav Yadav. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="mailto:vaibhavkyy@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/vaibhav-yadav-857946141/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Update copyright year automatically
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
